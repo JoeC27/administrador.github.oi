@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body{
+    background: #EAEDED;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Outfit", sans-serif;
+
+}
+
+/*Navegador vertical*/
+
+.nevegador-lateral-admin{
+    background: #1038EE;
+    height: 1250px;
+}
+
+
+.nevegador-lateral{
+    background: #1038EE;
+    height: 20000px;
+}
+
+.nevegador-lateral-editar{
+    background: #1038EE;
+    height: 2000px;
+}
+
+
+
+.nav-up-icon{
+    margin: 5px;
+    padding: 2px;
+}
+
+/*Navegador lateral-responsive*/
+
+.nevegador-lateral-admin-responsive{
+    background-color: #1038EE;
+    height: 200px;
+}
+
+.logo-responsive{
+    width: 50px;
+    height: 50px;
+}
+
+/*Navegador-horizontal*/
+
+.menu-horizontal{
+    background-color: #fa570cf5;
+    height: 200px;
+}
+
+#superior{
+    background-color: #fa911B;
+    margin-bottom: 5px;
+}
+
+.nav-link{
+    color:#EAEDED;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.nav-link:hover{
+    color:#5e0161;
+     transition: 0.5s;
+   
+}
+.dropdown-item:hover{
+    color: #fff;
+    font-weight: 700;
+    background-color:  #fa570cf5;
+    transition: 0.4s;
+}
+
+.contenedor {
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+}
+
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+/*Card pagina administrador*/
+.card-efects:hover{
+    background: #5e0161;
+    color: #EAEDED;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* Tarjetas de datos */
+
+.datos{
+    margin: 100px;
+    margin-top: 200px;
+    padding: 20px;
+}
+
+.datos-2{
+    margin: 100px;
+    padding: 20px;
+}
+
+.title{
+    text-align: center;
+}
+
+/*Pagina ventas*/
+
+.filtro{
+    margin-top:150px
+}
+
+.img-producto{
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+}
+
+.img-perfil{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.img-mascota{
+    border-radius: 100%;
+    width: 50px;
+    height: 40px;
+}
+
+.img-slider{
+    width: 200px;
+    height: 100px;
+}
+
+.tr-rollover:hover{
+   opacity: 0.9;
+   font-weight: 600;
+   transition: 0.3s;
+}
+
+.estadisticas{
+    padding: 100px;
+}
+
+/*boton de whatsapp*/
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #490df0;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+}
+
+.btn-wsp:hover{
+    text-decoration: none;
+    color: #0df053;
+    background: #fcfbfc;
+}
+
+.nav-footer{
+    padding: 100px;
+}
+
+/*Formulrio editar administrador*/
+
+/*Usuarios-Cirugias-Peluqueria*/
+.titulo-editor{
+    margin: 0;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.formulario{
+    margin-top:100px;
+    margin-left: 5px;
+    background: #fff;
+    border-radius: 50px;
+}
+
+.form-control{
+    background: #EAEDED;
+}
+
+
+/*pagina errar / Aviso de error*/
+
+.cartel{
+    margin-top:150px;
+    margin-left: 5px;
+    background: #fff;
+    border-radius: 50px;
+}
+
+.error{
+    margin: auto;
+    padding: 50px;
+    width: 500px;
+    height: 500px;
+}
+
+/*  Media query navegador */
+
+@media screen and (max-width: 700px){
+    
+    .menu-horizontal{
+        min-width: 576px;
+    }
+
+      .nevegador-lateral-admin-responsive{
+        min-width: 576px;
+    }
+
+       .datos{
+        min-width: 300px;
+    }
+
+      .datos-2{
+        min-width: 300px;
+    }
+
+    .tabla-contenedor{
+        margin: auto;
+        
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    
+    .screen-menu-productos{
+        min-width: 676px;
+    }
+
+
+}
